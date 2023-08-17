@@ -1,0 +1,71 @@
+.flow {
+    background-color: #214128;
+    height: 947px;
+    border-radius: 20px 20px 0 0;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        width: 437px;
+        padding-top: 115px;
+
+        h1 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 38px;
+            line-height: 46px;
+            color: #FFFFFF;
+            padding-bottom: 147px;
+        }
+    }
+
+    &__logo {
+        display: flex;
+    }
+
+    &__card {
+        width: 64px;
+        height: 64px;
+        background: #F5F0E8;
+        border-radius: 10px;
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 23px;
+            color: #FF9800;
+            text-align: center;
+            padding-top: 20px;
+        }
+    }
+
+    &__text {
+        width: 294px;
+        padding-left: 24px;
+        padding-bottom: 39px;
+        h5 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 27px;
+            color: #FFFFFF;
+        }
+
+        h6 {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            color: rgba(255, 255, 255, 0.7);
+            padding-top: 9px;
+        }
+    }
+    &__img{
+        padding-top: 64px;
+    }
+}

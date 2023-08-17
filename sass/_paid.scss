@@ -1,0 +1,70 @@
+.paid {
+    height: 947px;
+    background-color: #2B2E44;
+    border-radius: 20px 20px 0 0;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        h1 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 38px;
+            line-height: 46px;
+            color: #FFFFFF;
+            width: 434px;
+            padding-top: 115px;
+            padding-bottom: 117px;
+        }
+    }
+
+    &__logo {
+        display: flex;
+        // align-items: center;
+        padding-bottom: 40px;
+    }
+
+    &__card {
+        width: 64px;
+        height: 64px;
+        background: #F5F0E8;
+        border-radius: 10px;
+
+        h3 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 23px;
+            color: #FF9800;
+            text-align: center;
+            padding-top: 20px;
+        }
+    }
+
+    &__text {
+        padding-left: 24px;
+        width: 317px;
+
+        h4 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 27px;
+            color: #FFFFFF;
+        }
+
+        h5 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+    }
+    &__img{
+        padding-top: 64px;
+    }
+}

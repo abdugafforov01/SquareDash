@@ -1,0 +1,33 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import"_navbar.scss";
+@import"_main.scss";
+@import"_race.scss";
+@import"_paid.scss";
+@import"_flow.scss";
+@import"_pro.scss";
+@import"_build.scss";
+@import"_will.scss";
+@import"_plan.scss";
+@import"_future.scss";

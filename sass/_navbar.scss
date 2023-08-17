@@ -1,0 +1,27 @@
+.navbar {
+    height: 80px;
+    background-color: #7486f9;
+
+    &__menu {
+        display: flex;
+        justify-content: end;
+        line-height: 80px;
+        gap: 60px;
+    }
+    &__demo {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+
+.login {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #303F9F;
+}

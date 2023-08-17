@@ -1,0 +1,72 @@
+.pro {
+    height: 876px;
+    background: #AC511E;
+    border-radius: 20px 20px 0px 0px;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        h1 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 38px;
+            line-height: 46px;
+            color: #FFFFFF;
+            width: 342px;
+            padding-top: 124px;
+            padding-bottom: 120px;
+        }
+    }
+
+    &__logo {
+        display: flex;
+        // padding-top: 39px;
+    }
+
+    &__card {
+        width: 64px;
+        height: 64px;
+        background: #F5F0E8;
+        border-radius: 10px;
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 23px;
+            color: #FF9800;
+            text-align: center;
+            padding-top: 20px;
+        }
+    }
+
+    &__text {
+        padding-left: 24px;
+        width: 296px;
+        padding-bottom: 39px;
+        h5 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 27px;
+            color: #FFFFFF;
+            // padding-top: 39px;
+        }
+
+        h6 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            color: rgba(255, 255, 255, 0.7);
+            padding-top: 9px;
+            // padding-top: 39px;
+        }
+    }
+    &__img{
+        padding-top: 73px;
+    }
+}
